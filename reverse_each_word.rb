@@ -1,7 +1,8 @@
 def reverse_each_word(str)
-  sentence: "Hello there, and how are you?" 
-   revered = sentence("").collect do |word|
-     word.reverse
-end
-reversed.join("")
+ original_array = string.split(" ")
+  return_array = []
+  original_array.each do|string|
+    return_array << string.reverse
+  end
+  return_array.join(" ")
 end
